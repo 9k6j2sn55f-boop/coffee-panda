@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Panda — Specialty Roasts & Artisanal Bakes</title>
+  <meta name="description" content="Small-batch specialty coffee, single-origin pour-overs, and freshly baked artisanal fare at Coffee Panda." />
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-mark">●</span>
+        <span class="brand-name">Coffee Panda</span>
+      </a>
+
+      <!-- Desktop & Mobile Menu -->
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#roasts" class="nav-item">The Brews</a>
+        <a href="#menu" class="nav-item">Menu</a>
+        <a href="#space" class="nav-item">Our Space</a>
+        <a href="#visit" class="nav-item">Visit</a>
+        <a href="#visit" class="cta-pill mobile-only-cta">Reserve a Table</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#visit" class="cta-pill desktop-only-cta">Reserve a Table</a>
+
+        <!-- Hamburger Toggle Button -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Pouring fresh till 11:00 PM</span>
+          </div>
+
+          <h1 class="hero-title">
+            Slow roasted.<br>
+            Fast paced.<br>
+            <span class="text-accent">Zero compromise.</span>
+          </h1>
+
+          <p class="hero-lead">
+            Freshly ground specialty coffee, crisp golden fries, and grilled sandwiches prepared fresh to order in a relaxed, modern setting.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">Explore Seasonal Menu</a>
+            <a href="#space" class="btn btn-secondary">Our Philosophy</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80" 
+              alt="Warm cafe ambiance with artisan coffee and sandwiches on table" 
+              class="hero-img"
+            />
+            <div class="visual-badge">
+              <span class="badge-num">Dharashiv</span>
+              <span class="badge-label">Your Daily Neighborhood Spot</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics / Strip -->
+    <section class="strip">
+      <div class="container strip-grid">
+        <div class="strip-item">
+          <span class="strip-num">100%</span>
+          <span class="strip-label">Arabica Brews & Fresh Ingredients</span>
+        </div>
+        <div class="strip-item">
+          <span class="strip-num">Daily</span>
+          <span class="strip-label">Made-to-Order Grills & Bakes</span>
+        </div>
+        <div class="strip-item">
+          <span class="strip-num">7 Days</span>
+          <span class="strip-label">Open All Week for Work & Hangouts</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlighted Menu -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Selected Offerings</span>
+          <h2>Crafted Fresh Daily</h2>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Coffee Category -->
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <h3>Artisanal Espresso & Pour-Over Coffee</h3>
+              <span class="price">₹XX</span>
+            </div>
+            <p>Single-origin roast brewed fresh. Available hot or iced with velvety microfoam.</p>
+            <div class="tags">
+              <span>Signature Roast</span>
+              <span>Hot / Cold</span>
+            </div>
+          </article>
+
+          <!-- Sandwich Category -->
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <h3>Grilled Artisan Sandwich</h3>
+              <span class="price">₹XX</span>
+            </div>
+            <p>Toasted golden sourdough loaded with fresh vegetables, melted cheese, and house herb spread.</p>
+            <div class="tags">
+              <span>Freshly Grilled</span>
+              <span>House Special</span>
+            </div>
+          </article>
+
+          <!-- French Fries Category -->
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <h3>Crispy Golden French Fries</h3>
+              <span class="price">₹XX</span>
+            </div>
+            <p>Skin-on, double-fried hand-cut potatoes dusted with smoked paprika and sea salt.</p>
+            <div class="tags">
+              <span>Crisp & Hot</span>
+              <span>Snacks</span>
+            </div>
+          </article>
+
+          <!-- Signature Combo -->
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <h3>Coffee & Fries Combo</h3>
+              <span class="price">₹XX</span>
+            </div>
+            <p>Your choice of hot brewed coffee or iced latte paired with a basket of seasoned fries.</p>
+            <div class="tags">
+              <span>Panda Pair</span>
+              <span>Value</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   <!-- Visit / Location -->
+    <section class="visit-section" id="visit">
+      <div class="container visit-layout">
+        <div class="visit-card">
+          <span class="kicker">The Experience</span>
+          <h2>Step In. Take A Breath.</h2>
+          <p>Designed as an uninterrupted workspace by day, and a calm, dimly lit social lounge after dusk.</p>
+
+          <div class="detail-list">
+            <div class="detail-row">
+              <strong>Timings</strong>
+              <span>Monday – Sunday: 8:00 AM – 11:00 PM (Open All 7 Days)</span>
+            </div>
+            <div class="detail-row">
+              <strong>Atmosphere</strong>
+              <span>High-speed Wi-Fi, power outlets at every booth, ambient vinyl soundstage</span>
+            </div>
+            <div class="detail-row">
+              <strong>Location</strong>
+              <span>Coffee Panda, Dharashiv, Maharashtra</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
